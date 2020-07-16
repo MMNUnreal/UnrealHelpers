@@ -1,4 +1,4 @@
-// Copyright 2020 GCVRS, Inc. All Rights Reserved 
+// BY RAMA
 
 #pragma once
 
