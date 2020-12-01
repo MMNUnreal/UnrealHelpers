@@ -34,10 +34,10 @@ public:
 	}
 	
 
-	UFUNCTION(BlueprintCallable, Category="SDAudioUtilities")
+	UFUNCTION(BlueprintCallable, Category="AudioUtilities")
 	TArray<FString> GetAllMaterialObjectsAsStrings(const FName FolderPath);
 
-	UFUNCTION(BlueprintCallable, Category = "SDAudioUtilities")
+	UFUNCTION(BlueprintCallable, Category = "AudioUtilities")
 	static bool SaveStringsToFile(UPARAM(ref) const TArray<FString>& StringArrayIn, const FString& FileNameIn);
 
 };
