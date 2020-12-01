@@ -16,7 +16,7 @@ class WISEPLAYG_API UAudioBPLibrary : public UBlueprintFunctionLibrary
 
 public:
 	/** Will interpolate the audio listener between the current and target position at the given interp speed **/
-	UFUNCTION(BlueprintCallable, Category = "SDAudio")
+	UFUNCTION(BlueprintCallable, Category = "Audio")
 	static void InterpolateListenerPositions(UObject* WorldContextObject, UPARAM(ref) const FVector& CurrentPositionIn, UPARAM(ref) const FVector& TargetPositionIn, const float InterpSpeedIn, FVector& NewListenerPosOut);
 	
 };
